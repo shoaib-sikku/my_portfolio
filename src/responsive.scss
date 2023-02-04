@@ -1,0 +1,75 @@
+/* =====================================
+       330px
+========================================*/
+@media (max-width: 375px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .main {
+    .content {
+      #projects {
+        .projects-content {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+/* =====================================
+       767px
+========================================*/
+@media (max-width: 767px) {
+  .main {
+    .content {
+      #projects {
+        .projects-content {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      #contact {
+        .contact-content {
+          flex-direction: column;
+          align-items: center;
+          .contact-info {
+            div a svg {
+              width: 30px;
+              height: 30px;
+            }
+          }
+          .contact-form {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* =====================================
+       991px
+========================================*/
+@media (max-width: 991px) {
+  .main {
+    .toggle {
+      display: inline;
+    }
+    nav {
+      width: 70%;
+      left: -70%;
+    }
+    nav.active {
+      left: 0;
+    }
+    .content {
+      width: 100%;
+    }
+  }
+}
+
+/* =====================================
+       1024px
+========================================*/
+@media (max-width: 1024) {
+}
