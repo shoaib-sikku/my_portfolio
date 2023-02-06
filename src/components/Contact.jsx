@@ -30,7 +30,7 @@ const contact = () => {
                 </p>
                 <p>
                   <label htmlFor="email">Email :</label>
-                  <input type="text" id='email' placeholder='demo@example.com'  required/>
+                  <input type="email" id='email' placeholder='demo@example.com'  required/>
                 </p>
                 <p>
                   <label htmlFor="message">Message :</label>
