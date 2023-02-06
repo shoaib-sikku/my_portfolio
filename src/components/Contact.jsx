@@ -26,15 +26,15 @@ const contact = () => {
               <form action='https://getform.io/f/f09b2ae0-8f4c-46f0-ab29-d08aac342489' method='POST'>
                 <p>
                   <label htmlFor="name">Name :</label>
-                  <input type="text" id='name' placeholder='Enter your name please..' />
+                  <input type="text" id='name' placeholder='Enter your name please..'  required/>
                 </p>
                 <p>
                   <label htmlFor="email">Email :</label>
-                  <input type="text" id='email' placeholder='demo@example.com' />
+                  <input type="text" id='email' placeholder='demo@example.com'  required/>
                 </p>
                 <p>
                   <label htmlFor="message">Message :</label>
-                  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                  <textarea name="message" id="message" cols="30" rows="10" required></textarea>
                 </p>
 
                 <button className='main-btn' type={'submit'}>Submit</button>
