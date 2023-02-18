@@ -1,7 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import { BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs'
-import { Link } from 'react-scroll'
+import CV from '../Box/cv.pdf'
 
 const Home = () => {
     return (
@@ -13,14 +13,14 @@ const Home = () => {
                         <h1>I AM <span className='app-color'>MOHD SHOAIB</span></h1>
                         <h2>I am a <Typewriter
                             options={{
-                                strings: ['front-end developer', 'web designer', 'web developer'],
+                                strings: ['frontend developer', 'web designer', 'web developer'],
                                 autoStart: true,
                                 loop: true,
                             }}
                         />
                         </h2>
                         <p>This is my personal portfolio website for my works of web development.</p>
-                        <Link to={'about'} smooth duration={500} className='main-btn'>About me</Link>
+                        <a href={CV} download="Resume" className='main-btn'>Download CV</a>
                     </div>
 
                     <div className='bottom-home'>

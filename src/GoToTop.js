@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaArrowAltCircleUp } from 'react-icons/fa'
-import './index.scss'
+import './style/index.scss'
 
 const GoToTop = () => {
     const [scroll, setScroll] = useState(false);

@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import GoToTop from "./GoToTop";
-import "./responsive.scss";
+
 
 function App() {
   return (

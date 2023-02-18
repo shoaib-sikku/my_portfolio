@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import img1 from '../me-min.jpg'
+import img1 from '../Box/me.jpg'
 import { AiFillHome } from 'react-icons/ai'
 import { BsFillInfoCircleFill, BsFillBarChartFill } from 'react-icons/bs'
 import { MdOutlineMessage } from 'react-icons/md'
